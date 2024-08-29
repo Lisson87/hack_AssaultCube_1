@@ -1,0 +1,18 @@
+
+Assault Cube 1.3.0.2
+адреса указателей
+
+weapon 1-1
+"ac_client.exe"+0017E0A8, 0x140
+weapon 1-2
+"ac_client.exe"+0017E0A8, 0x138
+weapon 1-3
+"ac_client.exe"+0017E0A8, 0x13С
+weapon 1-4
+"ac_client.exe"+0017E0A8, 0x134
+weapon 1-5
+"ac_client.exe"+0017E0A8, 0x130
+grenade
+"ac_client.exe"+0017E0A8, 0x144
+pistol
+"ac_client.exe"+0017E0A8, 0x12С

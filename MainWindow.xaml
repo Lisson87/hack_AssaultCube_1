@@ -1,0 +1,105 @@
+﻿<Window x:Class="hack_AssaultCube_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hack_AssaultCube_1"
+        mc:Ignorable="d"
+        Title="Trainer v1.0 Assaul Cube 1.3.0.2" Height="300" Width="400">
+    <Grid>
+        <WrapPanel Margin="2">
+            <Grid Width="350">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="MTP-57, патроны" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" Name="Rifle11AmmoCurrent" Width="50" VerticalAlignment="Center" FontWeight="Bold">0</TextBlock>
+                <CheckBox Grid.Column="2" Name="Rifle11AmmoCbx" VerticalAlignment="Center" Margin="10" Checked="Rifle11AmmoCbx_Checked" Unchecked="Rifle11AmmoCbx_Unchecked" ></CheckBox>
+                <TextBox Grid.Column="3" Name="Rifle11AmmoTbx" Width="60" MaxLines="1">999</TextBox>
+            </Grid>
+
+            <Grid  Width="350">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="ПП ARD/10, патроны" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" Name="Rifle12AmmoCurrent" Width="50" VerticalAlignment="Center" FontWeight="Bold">0</TextBlock>
+                <CheckBox Grid.Column="2" Name="Rifle12AmmoCbx" VerticalAlignment="Center" Margin="10" Checked="Rifle12AmmoCbx_Checked" Unchecked="Rifle12AmmoCbx_Unchecked" ></CheckBox>
+                <TextBox Grid.Column="3" Name="Rifle12AmmoTbx" Width="60" MaxLines="1">998</TextBox>
+            </Grid>
+
+            <Grid Width="350">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Sniper rifle, патроны" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" Name="Rifle13AmmoCurrent" Width="50" VerticalAlignment="Center" FontWeight="Bold">0</TextBlock>
+                <CheckBox Grid.Column="2" Name="Rifle13AmmoCbx" VerticalAlignment="Center" Margin="10" Checked="Rifle13AmmoCbx_Checked" Unchecked="Rifle13AmmoCbx_Unchecked" ></CheckBox>
+                <TextBox Grid.Column="3" Name="Rifle13AmmoTbx" Width="60" MaxLines="1">997</TextBox>
+            </Grid>
+
+            <Grid Width="350">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Shotgun, патроны" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" Name="Rifle14AmmoCurrent" Width="50" VerticalAlignment="Center" FontWeight="Bold">0</TextBlock>
+                <CheckBox Grid.Column="2" Name="Rifle14AmmoCbx" VerticalAlignment="Center" Margin="10" Checked="Rifle14AmmoCbx_Checked" Unchecked="Rifle14AmmoCbx_Unchecked" ></CheckBox>
+                <TextBox Grid.Column="3" Name="Rifle14AmmoTbx" Width="60" MaxLines="1">996</TextBox>
+            </Grid>
+
+            <Grid Width="350">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="TMP-M A carabine, патроны" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" Name="Rifle15AmmoCurrent" Width="50" VerticalAlignment="Center" FontWeight="Bold">0</TextBlock>
+                <CheckBox Grid.Column="2" Name="Rifle15AmmoCbx" VerticalAlignment="Center" Margin="10" Checked="Rifle15AmmoCbx_Checked" Unchecked="Rifle15AmmoCbx_Unchecked" ></CheckBox>
+                <TextBox Grid.Column="3" Name="Rifle15AmmoTbx" Width="60" MaxLines="1">995</TextBox>
+            </Grid>
+
+            <Grid Width="350">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Пистолет, патроны" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" Name="PistolAmmoCurrent" Width="50" VerticalAlignment="Center" FontWeight="Bold">0</TextBlock>
+                <CheckBox Grid.Column="2" Name="PistolAmmoCbx" VerticalAlignment="Center" Margin="10" Checked="PistolAmmoCbx_Checked" Unchecked="PistolAmmoCbx_Unchecked" ></CheckBox>
+                <TextBox Grid.Column="3" Name="PistolAmmoTbx" Width="60" MaxLines="1">994</TextBox>
+            </Grid>
+
+            <Grid Width="350">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Гранаты, патроны" VerticalAlignment="Center"/>
+                <TextBlock Grid.Column="1" Name="GrenadeAmmoCurrent" Width="50" VerticalAlignment="Center" FontWeight="Bold">0</TextBlock>
+                <CheckBox Grid.Column="2" Name="GrenadeAmmoCbx" VerticalAlignment="Center" Margin="10" Checked="GrenadeAmmoCbx_Checked" Unchecked="GrenadeAmmoCbx_Unchecked" ></CheckBox>
+                <TextBox Grid.Column="3" Name="GrenadeAmmoTbx" Width="60" MaxLines="1">50</TextBox>
+            </Grid>
+
+        </WrapPanel>
+
+    </Grid>
+</Window>
